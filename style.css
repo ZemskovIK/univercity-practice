@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+img {
+    max-width: 50%;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+img:hover {
+    transform: scale(1.05);
+}
+h1 {
+    color: #333;
+}
+p {
+    color: #666;
+    line-height: 1.6;
+}
+.advantages {
+    text-align: left;
+    margin-top: 20px;
+}
+.advantages li {
+    margin-bottom: 10px;
+}
+.btn {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 15px;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+.btn:hover {
+    background-color: #0056b3;
+}
+.hidden {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease-out, padding 0.3s;
+    padding: 0;
+}
+.show {
+    max-height: 200px;
+    padding: 10px 0;
+}
