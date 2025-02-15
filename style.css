@@ -32,6 +32,9 @@ p {
     color: #666;
     line-height: 1.6;
 }
+ul {
+    list-style: none;
+}
 .advantages {
     text-align: left;
     margin-top: 20px;
