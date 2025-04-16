@@ -19,7 +19,7 @@
 ## 🚀 Запуск проекта
 1. Склонируйте репозиторий:
 ```bash
-git clone https://github.com/your-username/your-repo-name.git
+git clone https://github.com/zemskovik/your-repo-name.git
 ```
 2. Перейдите в директорию проекта:
 ```bash
